@@ -25,12 +25,47 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
+              "src/assets/css/main.map",
+
               "src/assets"
+
             ],
             "styles": [
-              "src/styles.scss"
+           
+              "src/styles.scss",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/colors1.css",
+              "src/assets/css/custom.css",
+              "src/assets/css/animate.css",
+              "src/assets/revolution/css/settings.css",
+              "src/assets/revolution/css/layers.css",
+              "src/assets/revolution/css/navigation.css"
+              
+              
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/custom.js",
+              "src/assets/js/hizoom.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/menumaker.js",
+              "src/assets/js/wow.js",
+              "src/assets/revolution/js/jquery.themepunch.revolution.min.js",
+              "src/assets/revolution/js/jquery.themepunch.tools.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.actions.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.carousel.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.kenburn.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.migration.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.navigation.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.parallax.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.slideanims.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.video.min.js"
+              
+              
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +158,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "blog"
+    }
+  },
+  "defaultProject": "blog",
+  "cli": {
+    "analytics": "15838c98-1a28-4981-94da-4da5099b1772"
+  }
 }
