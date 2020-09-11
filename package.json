@@ -21,9 +21,11 @@
     "@angular/router": "~9.1.11",
     "@ngx-translate/core": "^13.0.0",
     "@ngx-translate/http-loader": "^6.0.0",
+    "bootstrap": "^3.3.7",
     "ng-block-ui": "^3.0.2",
     "ngx-toastr": "^13.0.0",
     "rxjs": "~6.5.4",
+    "rxjs-compat": "^6.6.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
